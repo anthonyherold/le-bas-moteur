@@ -2,7 +2,13 @@ header {
 position: relative;
 width: 100%;
 height: 400px;
-background-color: red;
+
+
+  #lemenu {
+    width: 100%;
+    height: 80px;
+    background-color: #021732;
+  }
 
   img {
     margin-top: 50px;
@@ -13,6 +19,12 @@ background-color: red;
     margin-left: 30px;
     margin-top: 20px;
     font-weight: 700;
+    color: white;
+  }
+
+  li a:hover {
+    color: #f2d03b;
+    transition-duration: 1s;
   }
 }
 
@@ -38,16 +50,17 @@ background-color: red;
   margin-top: 60px;
   width: 100%;
   height: 600px;
-  background-color: green;
 
   h2 {
     font-family: 'Bevan', cursive;
     text-transform: uppercase;
     font-size: 30px;
+    color: #021732;
   }
 
   p {
     margin-top: 100px;
+    color: #021732;
   }
 
   #hamburger {
@@ -56,36 +69,63 @@ background-color: red;
 }
 
 .quoi {
-  margin-top: 60px;
+  margin-top: 20px;
   width: 100%;
   height: 1200px;
-  background-color: yellow;
+  background-color: #f2d03b;
+
+  #trait {
+    margin-top: 64px;
+  }
 
   h2 {
+    margin-top: 50px;
     font-family: 'Bevan', cursive;
     text-transform: uppercase;
     font-size: 30px;
+    color: #021732;
+  }
+
+  .button {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    width: 240px;
+    border-radius: 10px;
+    background-color: #021732;
+    color: #f2d03b;
+    text-transform: uppercase;
+  }
+
+  .button:hover {
+    color: #021732;
+    background-color: #f2d03b;
+    transition-duration: 0.5s;
+
   }
 
   .visutexte {
-    margin-top: 150px;
+    margin-top: 200px;
 
   p {
     margin-top: 50px;
+    color: #021732;
+
     }
   }
 }
 
 .formules {
-  margin-top: 60px;
+  padding-top: 60px;
   width: 100%;
   height: 900px;
-  background-color: red;
+  background-color: #021732;
 
   h2 {
     font-family: 'Bevan', cursive;
     text-transform: uppercase;
     font-size: 30px;
+    color: #f2d03b;
   }
 
   #blocs {
@@ -93,8 +133,7 @@ background-color: red;
   }
 
   article {
-    position: relative;
-    background-color: yellow;
+    background-color: #f2d03b;
     padding:20px;
     height: 610px;
     width: 0 auto;
@@ -130,6 +169,7 @@ background-color: red;
     margin-top: 60px;
     font-size: 45px;
     font-weight: 700;
+    color: #021732;
   }
 
   strong {
@@ -142,12 +182,68 @@ background-color: red;
 .quand {
   margin-top: 60px;
   width: 100%;
-  height: 900px;
-  background-color: purple;
+  height: 700px;
 
   h2 {
     font-family: 'Bevan', cursive;
     text-transform: uppercase;
     font-size: 30px;
+    color: #021732;
   }
+
+  article {
+    margin-top: 150px;
+    background-color: #f2d03b;
+    padding:20px;
+    height: 450px;
+    width: 0 auto;
+    text-align: center;
+  }
+
+  img {
+    margin-top: 20px;
+  }
+
+  p {
+    margin-top: 70px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #021732;
+  }
+
+  strong {
+    color: #021732;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+}
+
+.footer {
+  height: 350px;
+  background-color: #021732;
+  text-align: center;
+
+  h4 {
+    margin-top: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 800;
+  }
+
+  img {
+    margin-top: 50px;
+    margin: 20px;
+  }
+
+  p{
+    margin-top: 10px;
+    color: #fff;
+  }
+
+  strong {
+    color: #f2d03b;
+  }
+
+  #copyright
 }
